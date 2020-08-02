@@ -58,4 +58,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     print(args)
-    scrape(start=args.start, end=args.end, term=args.search_term)
+    # scrape(start=args.start, end=args.end, term=args.search_term)
