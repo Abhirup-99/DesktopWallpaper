@@ -1,0 +1,1 @@
+gsettings set org.gnome.desktop.background picture-uri '/home/abhirup/Pictures/Screenshot from 2020-07-18 07-32-04.png'
