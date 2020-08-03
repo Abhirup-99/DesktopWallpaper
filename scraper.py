@@ -34,7 +34,7 @@ def scrape(term=""):
         img_url=get_url(img_page)
         download_file(img_url)
         return "success"
-    except:
+    except Exception:
         return "error"
 
 
