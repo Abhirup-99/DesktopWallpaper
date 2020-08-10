@@ -1,5 +1,4 @@
 from scraper import scrape
-from setWallpaper import setWallpaper
 import argparse
 from random import randint
 import urllib.request
@@ -20,11 +19,13 @@ if __name__ == "__main__":
     args =  parser.parse_args()
 
     #checks if its connected to the internet
+    print("starting")
     isInternetConnected = connect()
     if isInternetConnected:
         if(len(args.term)==0):
+            print("starting scraping")
             scrape("")
         else:
             randomGuess = randint(0,len(args.term)-1)
             scrape(args.term[randomGuess])
-        setWallpaper()
+        print("setting wallpaper")
