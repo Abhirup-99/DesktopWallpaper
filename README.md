@@ -17,4 +17,6 @@
     >For me it was
     >50 12 * * * cd /home/abhirup/Documents/selfProjects/extensionPractice && /usr/bin/python3 main.py && bash setEnv.sh
 
-
+# Categories
+ You can also specify if you want images from a particular category or a list of categories
+ python main.py adventures life sports
