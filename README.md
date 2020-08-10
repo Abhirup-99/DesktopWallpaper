@@ -1,4 +1,5 @@
-<center>**<h1>Automatic WallPaper Changing script</h1>**</center>
+<center><h1>Automatic WallPaper Changing script</h1></center>
+
 # Requirements
 - python preferably 3, 2 would also do
 - gnome terminal
