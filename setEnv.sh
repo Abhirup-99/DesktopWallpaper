@@ -3,7 +3,7 @@ PID=$(pgrep -o gnome-session)
 export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
 
 #replace with your path
-#TODO: get path dynamically depending on output
+#TODO: get path depending on the system
 wallpaper=`find "/home/abhirup/Documents/selfProjects/extensionPractice/images/" -type f` 
 echo "Wallpaper path"
 echo $wallpaper
