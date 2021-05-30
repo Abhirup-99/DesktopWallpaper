@@ -1,4 +1,6 @@
 extensionPractisePy
 images
+.gitignore
 *.pyc
 __pycache__
+venv
